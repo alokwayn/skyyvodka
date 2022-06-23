@@ -1,0 +1,268 @@
+
+
+*{
+    margin:0;
+}
+
+.container{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.blank-space{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.nav-bar a{
+    margin-left: 8px;
+    font:'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    bottom: 50px;
+    letter-spacing: 5px;  
+}
+#hero{
+    border-top: solid 5px blue;
+    background-image: url("../images/skyy-vodka-bridge-aspect-ratio-1920-1080\ 1.jpg");
+    text-align: center;
+    font-size: 70px;
+    color: rgb(234, 214, 214);
+    height: 580px;
+    background-size: cover;
+    letter-spacing: 3px;
+}
+#friends{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+#friends-image{
+    
+    width: 50%;
+    height: 50%;
+}
+#friends-portrait{
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 10px;
+    text-align: left;
+    color: blue;
+    width: 50%;
+    margin-top: 0.3cm;
+    margin-left: 1cm;
+
+}
+#friends-image img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.write{
+    color: black;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.learn{
+    letter-spacing: 2px;
+    margin-top: 1cm;
+}
+#ocean{
+    background-image: url("../images/skyy-vodka-ocean.png");
+    height: 580px;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+.button{
+    width: 8cm;
+    height: 2cm;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 150px;
+}
+#water{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 1.8cm;
+}
+#water-drinking{
+    width: 50%;
+    height: 50%;
+}
+#water-text{
+    width: 50%;
+    color: blue;
+    letter-spacing: 10px;
+    text-align: left;
+    margin: 1cm;
+    font-size: 25px;
+}    
+#water-drinking img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}    
+.text{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-top: 1.5cm;
+    font-size: 30px;
+}
+#sky-bottle{
+    background-image: url(../images/Product-live-shot.jpg);
+    height: 479px;
+    width: 600px;
+    background-position: center;
+    position: absolute;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+
+}
+#sky{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 3cm;
+    
+    
+}
+#sky-bottle img{
+    height: 597px;
+    width:304px ;
+    padding-left: 400px;   
+    border-bottom: 5px solid blue;
+}
+#sky-text{
+    width: 50%;
+    height: 50%;
+    margin-left: 18.7cm;
+    margin-top: 4cm;
+    color: blue;
+    font-size: 29px;
+    border-bottom: 5px solid;
+}
+.writing{
+    color: black;
+    font-weight: lighter;
+    margin-top: 2cm; 
+    font-size: 28px;
+}
+.button1{
+    background-color: blue;
+    height: 1.5cm;
+    width: 4.5cm;
+    color: white;
+    margin-top: 3.1cm;
+    margin-left: 2cm;
+}
+#box{
+    height: 8cm;
+    width: 10cm;
+    background-color: white;
+    margin-left: 12cm;
+}
+#main{
+    flex-direction: column;
+    width: 100%;
+    height: 10cm;
+    background-color: rgb(200, 199, 199);
+    display: flex;
+    justify-content: center;
+    word-spacing: 9px;
+}
+#box-title{
+    color: blue;
+    margin-left: 2.2cm;
+    margin-top: 0.5cm;
+}
+.box-fav{
+    color: black;
+    margin-top: 1.4cm;
+    font-size: 21px;
+    word-spacing: 6px;
+}
+.button2{
+    color: white;
+    background-color: blue;
+    margin-top: 1.9cm;
+    margin-left: 0.8cm;
+    height: 1.5cm;
+    width: 4cm;
+}
+#core{
+    border-bottom: 5px solid blue;
+    display: flex;
+    margin-top: 2cm;
+    background-color: rgb(223, 222, 222);
+    
+
+}
+#core-bottle1{
+    margin-left: 5cm;
+    background-color: white;
+    color: blue;
+    
+}
+#core-bottle{
+    margin-left: 2.5cm;
+    background-color: white;   
+    color: blue;
+    word-spacing: 7px;
+}
+.core_bottle{
+    word-spacing: 9px;
+    font-size: 25px;
+
+}
+.hero-bottle{
+    font-size: 25px;
+    word-spacing: 7px;
+}
+.hero-bottle1{
+     margin-top: 1cm;
+     word-spacing: 7px;
+}
+.hero-bottle2{
+    margin-top: 1.5cm;
+}
+.core-bottle2{
+    margin-top: 1cm;
+}
+.core-bottle3{
+    margin-top: 1.5cm;
+}
+.footer1{
+    margin-top: 1cm;
+}
+div.footer3 a{
+    margin-left: 2cm;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.footer{
+    display: flex;
+}
+.footer3{
+    margin-top: 3.4cm;
+}
